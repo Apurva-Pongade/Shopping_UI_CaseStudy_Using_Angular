@@ -1,0 +1,29 @@
+.image-description-container {
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  .image-container {
+    flex: 0 0 auto;
+    margin-right: 16px; /* Adjust the margin as needed */
+  }
+  
+  .description-container {
+    padding:50px;
+  }
+  button{
+    width: 300px;
+  }
+  .reviews{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+  }
+  img{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  h4{
+    color: darkgray;
+  }

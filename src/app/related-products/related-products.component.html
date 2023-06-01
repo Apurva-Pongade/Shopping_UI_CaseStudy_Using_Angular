@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+            <div class="card col-md-3">
+                <img src="assets/shop-img1.png" alt="">
+                <img [src]="imageClicked1 ? 'assets/filled_heart.png' : 'assets/unfilled_heart.png'" alt="" (click)="toggleImage(1)" [ngClass]="{'small-image': imageClicked1, 'large-image': !imageClicked1}" [style.width.px]="imageClicked1 ? 20 : 20" [style.height.px]="imageClicked1 ? 20 : 20">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Lira Earings</h5>
+                <p><strong>Price:</strong>RS.99</p>
+                
+                <button class="btn btn-outline-secondary" class="view-button">View Product</button>
+            </div>
+            <div class="card col-md-3">
+              <img src="assets/shop-img2.png" alt="">
+              <button class="btn btn-light"  class="view-button">View Product</button>
+              <img [src]="imageClicked2 ? 'assets/filled_heart.png' : 'assets/unfilled_heart.png'" alt="" (click)="toggleImage(2)" [ngClass]="{'small-image': imageClicked2, 'large-image': !imageClicked2}"[style.width.px]="imageClicked2 ? 20 : 20" [style.height.px]="imageClicked2 ? 20 : 20">
+              <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hal Earings</h5>
+              <p><strong>Price:</strong>RS.109</p>
+              
+          </div>
+          <div class="card col-md-3">
+            <img src="assets/shop-img3.png" alt="">
+            <img [src]="imageClicked3 ? 'assets/filled_heart.png' : 'assets/unfilled_heart.png'" alt="" (click)="toggleImage(3)" [ngClass]="{'small-image': imageClicked3, 'large-image': !imageClicked3}"[style.width.px]="imageClicked3 ? 20 : 20" [style.height.px]="imageClicked3 ? 20 : 20">
+            <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hair Pins</h5>
+            <p><strong>Price:</strong>RS.89</p>
+            <button class="btn btn-light" class="view-button">View Product</button>
+        </div>
+    </div>
+    <div class="row">
+      <div class="card col-md-3">
+          <img src="assets/shop-img1.png" alt="">
+          <img [src]="imageClicked4 ? 'assets/filled_heart.png' : 'assets/unfilled_heart.png'" alt="" (click)="toggleImage(4)" [ngClass]="{'small-image': imageClicked4, 'large-image': !imageClicked4}"[style.width.px]="imageClicked4 ? 20 : 20" [style.height.px]="imageClicked4 ? 20 : 20">
+          <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Lira Earings</h5>
+          <p><strong>Price:</strong>RS.99</p>
+          <button class="btn btn-light" class="view-button">View Product</button>
+      </div>
+      <div class="card col-md-3">
+        <img src="assets/shop-img2.png" alt="">
+        <img [src]="imageClicked5 ? 'assets/filled_heart.png' : 'assets/unfilled_heart.png'" alt="" (click)="toggleImage(5)" [ngClass]="{'small-image': imageClicked5, 'large-image': !imageClicked5}"[style.width.px]="imageClicked5 ? 20 : 20" [style.height.px]="imageClicked5 ? 20 : 20">
+        <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hal Earings</h5>
+        <p><strong>Price:</strong>RS.109</p>
+        <button class="btn btn-light" class="view-button">View Product</button>
+    </div>
+    <div class="card col-md-3">
+      <img src="assets/shop-img3.png" alt="">
+      <img [src]="imageClicked6 ? 'assets/filled_heart.png' : 'assets/unfilled_heart.png'" alt="" (click)="toggleImage(6)" [ngClass]="{'small-image': imageClicked6, 'large-image': !imageClicked6}"[style.width.px]="imageClicked6 ? 20 : 20" [style.height.px]="imageClicked6 ? 20 : 20">
+      <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hair Pins</h5>
+      <p><strong>Price:</strong>RS.89</p>
+      <button class="btn btn-light" class="view-button">View Product</button>
+  </div>
+  </div>
+  </div>
+  

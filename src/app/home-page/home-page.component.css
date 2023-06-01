@@ -1,0 +1,123 @@
+
+.img1{
+  width: 1500px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.shop-img{
+  width: 450px;
+  height: 230px;
+  padding-left: 30px;
+ 
+}
+h2{
+  padding: 50px;
+  margin-right: 10px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.col{
+  text-align: center;
+}
+
+.shop-the-latest{
+  padding-bottom: 30px;
+  margin-left: 20px;
+}
+#last-latest{
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+
+.info-item {
+  display: flex;
+  margin-bottom: 5px;
+}
+.copy, label{
+  padding-top: 20px;
+  padding-left: 30PX;
+  padding-right: 30PX;
+  padding-bottom: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.image-overlay {
+  position: absolute;
+  top: 50%;
+ 
+  transform: translate(-50%, -50%);
+  padding-left: 30%;
+}
+
+
+.image-button {
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  border-color:#ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.info-block{
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #999;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  height: 500;
+  width: 400px;
+  
+}
+
+.card img {
+  width: 360px;
+  height: 300px;
+  margin-bottom: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.card img:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.row[_ngcontent-ng-c3899736719] {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.view-button {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card:hover .view-button {
+  opacity: 1;
+}
+
+

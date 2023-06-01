@@ -1,0 +1,84 @@
+
+<app-header></app-header>
+
+<div class="image-description-container">
+    <div class="image-container" >
+      <img src="assets/img1.png" alt="Image"  class="img1" width="700px" height="500px">
+    </div>
+    <div class="description-container">
+      <h2>{{title}}</h2><br>
+      <p>Rs.{{Price}}</p><br>
+      {{description}}
+      <br>
+      <br>
+      <button class="btn btn-outline-dark" (click)=addtocart(item) (click)="addToCartNotify()" >
+        Add To Cart
+    </button>
+    </div>
+</div>
+<hr>
+<div class="reviews">
+  <mat-tab-group>
+    <mat-tab label="Description">
+    <app-tab></app-tab>
+    </mat-tab>
+    <mat-tab label="Additional Information">
+      <app-tab1></app-tab1>
+    </mat-tab>
+    <mat-tab label="Reviews">
+      <app-tab2></app-tab2>
+    </mat-tab>
+  </mat-tab-group>
+  
+</div>
+<hr>
+<h2 class="related-products">
+    Related Products
+  </h2>
+<div class="container">
+    <div class="row">
+            <div class="card col-md-3">
+                <img src="assets/shop-img1.png" alt="">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Lira Earings</h5>
+                <p><strong>Price:</strong>RS.99</p>
+                <button class="btn btn-outline-secondary" class="view-button">View Product</button>
+            </div>
+            <div class="card col-md-3">
+              <img src="assets/shop-img2.png" alt="">
+              <button class="btn btn-light"  class="view-button" >View Product</button>
+              
+              <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hal Earings</h5>
+              <p><strong>Price:</strong>RS.109</p>
+              
+          </div>
+          <div class="card col-md-3">
+            <img src="assets/shop-img3.png" alt="">
+            <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hair Pins</h5>
+            <p><strong>Price:</strong>RS.89</p>
+            <button class="btn btn-light" class="view-button">View Product</button>
+        </div>
+    </div>
+    <div class="row">
+      <div class="card col-md-3">
+          <img src="assets/shop-img1.png" alt="">
+          <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Lira Earings</h5>
+          <p><strong>Price:</strong>RS.99</p>
+          <button class="btn btn-light" class="view-button">View Product</button>
+      </div>
+      <div class="card col-md-3">
+        <img src="assets/shop-img2.png" alt="">
+        <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hal Earings</h5>
+        <p><strong>Price:</strong>RS.109</p>
+        <button class="btn btn-light" class="view-button">View Product</button>
+    </div>
+    <div class="card col-md-3">
+      <img src="assets/shop-img3.png" alt="">
+      <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">Hair Pins</h5>
+      <p><strong>Price:</strong>RS.89</p>
+      <button class="btn btn-light" class="view-button">View Product</button>
+  </div>
+  </div>
+  </div>
+  
+  <div class="container">
+    

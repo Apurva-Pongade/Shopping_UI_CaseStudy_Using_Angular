@@ -1,0 +1,37 @@
+<nav class="navbar">
+    <ul class="nav-list">
+      <li class="page-name">
+          SHOPPE
+      </li>
+      <li class="nav-item1">
+        <button class="nav-link" (click)="navigateToHomePage()">Shop</button>
+      </li>
+      
+      <li class="nav-item">
+        <a href=" " class="nav-link">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a href=" " class="nav-link">Our Story</a>
+      </li>
+      <li class="nav-item search-container">
+        <i style="font-size: 20px;" class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search-input" placeholder="Search" id="searchInput">
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          
+        </a>
+        
+          <i style="font-size: 20px; " class="fas fa-cart-plus" (click)="navigateToNewPage()"></i>
+          <span matBadge="{{ cartCount }}" matBadgeSize="small" matBadgeColor="accent"></span>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">
+          <i style="font-size: 20px;" class="fa-solid fa-user" (click)="navigateTologinPage()"></i>
+          
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  
